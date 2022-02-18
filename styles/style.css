@@ -1,0 +1,156 @@
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../fonts/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.fix-size {
+    width: 1110px;
+    margin: 0 auto;
+    font-family: Roboto;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+}
+
+.header {
+    background-color: #EBEBEB;
+    padding: 79px 0 144px;
+}
+
+.nav {
+    padding-bottom: 162px;
+}
+
+.inline-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.nav-li {
+    letter-spacing: 0.1em;
+}
+
+.nav-li.nav-li:not(last-child) {
+    margin-right: 42px;
+}
+
+.nav-li a {
+    text-decoration: none;
+    color: #000000;
+    letter-spacing: 0.1em;
+}
+
+.nav .active {
+    color: #500E0A;
+    font-weight: 500;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;
+}
+
+.page-text {
+    line-height: 26px;
+    color: #727272;
+    width: 540px;
+}
+.header .page-text {
+    margin-bottom: 65px;
+}
+
+.button-header {
+    background: #500E0A;
+    border-radius: 7px;
+    width: 228px;
+    height: 62px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-style: none;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.button-header:hover {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.about {
+    padding: 100px 0;
+}
+
+.second-lvl-title {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.about .page-text {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.items {
+    background-color: #500E0A;
+    padding: 100px 0;
+
+}
+
+.card + .card {
+    margin-left: 49px;
+}
+
+.card-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.thrid-lvl-title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.info-text {
+    line-height: 26px;
+    color: #FFFFFF;
+}
+
+.content {
+    background-color: #EBEBEB;
+    padding: 100px 0;
+}
+
+.content .page-text {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 57px;
+}
+
+.footer {
+    background-color: #500E0A;
+    padding: 50px 0;
+}
+
+.footer .thrid-lvl-title {
+    margin-bottom: 20px;
+}

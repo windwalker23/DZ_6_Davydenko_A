@@ -2,105 +2,113 @@
 <html lang="ru">
 <head>
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/header&footer.css">
-    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>DZ_6</title>
 </head>
 <body>
     <header class="header">
-        <div class="header-container">
+        <div class="fix-size">
             <nav class="nav">
-                <a href="" class="main-nav">ГЛАВНАЯ</a>
-                <a href="">ОБ АВТОРЕ</a>
-                <a href="">РАБОТЫ</a>
-                <a href="">ПРОЦЕСС</a>
-                <a href="">КОНТАКТЫ</a>
+                <ul>
+                    <li class="nav-li inline-block">
+                        <a href="" class="active">ГЛАВНАЯ</a>
+                    </li><!--
+                 --><li class="nav-li inline-block">
+                        <a href="">ОБ АВТОРЕ</a>
+                    </li><!--
+                 --><li class="nav-li inline-block">
+                        <a href="">РАБОТЫ</a>
+                    </li><!--
+                 --><li class="nav-li inline-block">
+                        <a href="">ПРОЦЕСС</a>
+                    </li><!--
+                 --><li class="nav-li inline-block">
+                        <a href="">КОНТАКТЫ</a>
+                    </li>
+                </ul>
             </nav>
-            <h1 class="h1">Дизайн и верстка</h1>
-            <p class="header-text">
+            <h1 class="title">Дизайн и верстка</h1>
+            <p class="page-text">
                 Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                 Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
             </p>
-            <button>НАПИСАТЬ МНЕ</button>
+            <button class="button-header">НАПИСАТЬ МНЕ</button>
         </div>
     </header>
     <main>
-        <div>
-            <div class="about">
-                <h2 class="h2-about">Обо мне</h2>
-                <p class="text-about">
-                    Lorem Ipsum - это текст-"рыба", часто используемый в печати 
-                    и вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов на латинице 
-                    с начала XVI века.
-                </p>
-            </div>
-        </div>
-        <div class="numbers">
-            <div class="item-container">
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-                <div class="numbers-item">
-                    <img src="images/Group.png" alt="img">
-                    <span class="item-text">
-                        <p class="item-text-top">40+</p>
-                        <p class="item-text-bottom">проектов</p>
-                    </span>
-                </div>
-            </div>
-        </div>
-        <div class="video-container">
-            <div class="video">
-                <h2 class="h2-video">Как я работаю</h2>
-                <p class="text-video">
+        <section class="about">
+            <div class="fix-size">
+                <h2 class="second-lvl-title">Обо мне</h2>
+                <p class="page-text">
                     Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
                     Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
                 </p>
-                <div class="video-container">
-                    <iframe width="1110" height="600" src="https://www.youtube.com/embed/5ZBRAddjwwU" 
+            </div>
+        </section>
+        <section class="items">
+            <div class="fix-size">
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+                <div class="card inline-block">
+                    <img src="images/project.svg" alt="img" class="inline-block card-img">
+                    <div class="inline-block">
+                        <h3 class="thrid-lvl-title">40+</h3>
+                        <p class="info-text">проектов</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="fix-size">
+                <h2 class="second-lvl-title">Как я работаю</h2>
+                <p class="page-text">
+                    Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. 
+                    Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века.
+                </p>
+                <iframe width="1110" height="600" src="https://www.youtube.com/embed/5ZBRAddjwwU" 
                     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; 
                     clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                     allowfullscreen>Ваш браузер не поддерживает медиа!</iframe>
-                </div>
             </div>
-        </div>
+        </section>
     </main>
     <footer class="footer">
-        <div class="footer-container">
-            <h3 class="h3-footer">Иванов Иван</h3>
-            <p class="text-footer">(с) 2022. Все права защищены.</p>
+        <div class="fix-size">
+            <h3 class="thrid-lvl-title">Иванов Иван</h3>
+            <p class="info-text">(с) 2020. Все права защищены.</p>
         </div>
     </footer>
 </body>
